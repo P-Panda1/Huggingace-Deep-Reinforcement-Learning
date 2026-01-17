@@ -14,5 +14,5 @@ huggingface-cli login
 mlagents-push-to-hf \
   --run-id="SoccerTwos_v1" \
   --local-dir="./results/SoccerTwos_v1" \
-  --repo-id="YOUR_HF_USERNAME/YOUR_REPO_NAME" \
+  --repo-id="PinchuPanda/SoccerTwos" \
   --commit-message="Initial trained soccer model"
