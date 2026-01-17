@@ -21,7 +21,7 @@ behaviors:
     network_settings:
       normalize: false
       hidden_units: 512
-      num_layers: 4
+      num_layers: 3
       vis_encode_type: simple
       memory: null
       goal_conditioning_type: hyper
@@ -70,5 +70,4 @@ engine_settings:
 
 checkpoint_settings:
   run_id: "SoccerTwos"
-  resume: true
   results_dir: "results"
