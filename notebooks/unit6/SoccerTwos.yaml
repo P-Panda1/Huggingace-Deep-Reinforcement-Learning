@@ -70,4 +70,5 @@ engine_settings:
 
 checkpoint_settings:
   run_id: "SoccerTwos"
+  # resume: true # Commented at the start
   results_dir: "results"
