@@ -16,3 +16,14 @@ mlagents-push-to-hf \
   --local-dir="./results/SoccerTwos_v1" \
   --repo-id="PinchuPanda/SoccerTwos" \
   --commit-message="Initial trained soccer model"
+
+  # --- PART D: RECORDING A VIDEO ---
+# 1. We run the model in inference mode (no training)
+# 2. We remove --no-graphics so we can see the window
+# 3. Use your favorite screen recorder (OBS, Windows Game Bar Win+G, or Mac QuickTime)
+
+mlagents-learn ./config/poca/SoccerTwos.yaml \
+  --env=./training-envs-executables/SoccerTwos \
+  --run-id="SoccerTwos_v1" \
+  --resume \
+  --inference
